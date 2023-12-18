@@ -50,3 +50,13 @@ keymap.set("n", "<C-w><down>", "<C-w>-")
 keymap.set("n", "<C-j>", function()
   vim.diagnostic.goto_next()
 end, opts)
+
+-- Disable diagnostics
+keymap.set("n", "er", function()
+  vim.diagnostic.disable()
+end, opts)
+
+-- Enable diagnostics
+keymap.set("n", "br", function()
+  vim.diagnostic.enable()
+end, opts)

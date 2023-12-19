@@ -55,3 +55,6 @@ require("lazy").setup({
     },
   },
 })
+
+-- color of ColorColumn
+vim.cmd("hi ColorColumn guibg=#3d3fe0")

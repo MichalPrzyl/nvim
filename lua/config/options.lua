@@ -6,3 +6,4 @@ local opt = vim.opt
 
 vim.g.autoformat = false
 opt.colorcolumn = "80"
+-- color of that colorcollumn is set up in `lazy.lua` file. I'm not able to do that here for some reason.

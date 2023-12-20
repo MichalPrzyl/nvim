@@ -2,8 +2,8 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
-      -- pylsp will be automatically installed with mason and loaded with lspconfig
-      pylsp = {},
+      pylsp = {}, -- python lsp server
+      tsserver = {}, -- typescript language server
     }
   }
 }
